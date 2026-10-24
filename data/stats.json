@@ -1,0 +1,205 @@
+{
+ "stars": 11,
+ "contributions": 22,
+ "repos": 7,
+ "followers": 1,
+ "languages": [
+  [
+   "HTML",
+   368703
+  ],
+  [
+   "Python",
+   195841
+  ],
+  [
+   "JavaScript",
+   160691
+  ],
+  [
+   "CSS",
+   40184
+  ],
+  [
+   "C#",
+   29408
+  ]
+ ],
+ "days": [
+  [
+   {
+    "c": 0,
+    "day": 4,
+    "today": false
+   },
+   {
+    "c": 2,
+    "day": 5,
+    "today": false
+   },
+   {
+    "c": 1,
+    "day": 6,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 7,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 8,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 9,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 10,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 0,
+    "day": 11,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 12,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 13,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 14,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 15,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 16,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 17,
+    "today": false
+   }
+  ],
+  [
+   {
+    "c": 1,
+    "day": 18,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 19,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 20,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 21,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 22,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 23,
+    "today": false
+   },
+   {
+    "c": 0,
+    "day": 24,
+    "today": true
+   }
+  ]
+ ],
+ "pins": [
+  {
+   "name": "geometry_nodes_exporter",
+   "url": "https://github.com/Sokuza/geometry_nodes_exporter",
+   "text": "Export Blender Geometry Node trees as SVG or PDF",
+   "fork": false,
+   "stars": 4,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "Math-Studio",
+   "url": "https://github.com/Sokuza/Math-Studio",
+   "text": "Math functions and 3D animation studio for Windows (PyWebView + SymPy + Three.js + FFmpeg)",
+   "fork": false,
+   "stars": 2,
+   "language": "JavaScript",
+   "topics": []
+  },
+  {
+   "name": "blender-mathfunction",
+   "url": "https://github.com/Sokuza/blender-mathfunction",
+   "text": "Blender addon: math expressions to curves, surfaces, point clouds and volumes",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": [
+    "addon",
+    "blender",
+    "geometry-nodes",
+    "math",
+    "math-visualization",
+    "python"
+   ]
+  },
+  {
+   "name": "BulkRename",
+   "url": "https://github.com/Sokuza/BulkRename",
+   "text": "BulkRename v1.0 - Batch file renaming tool",
+   "fork": false,
+   "stars": 1,
+   "language": "C#",
+   "topics": []
+  },
+  {
+   "name": "GeoStringAnim",
+   "url": "https://github.com/Sokuza/GeoStringAnim",
+   "text": "Blender Geometry Nodes addon: per-character typewriter, bounce and wave text animation",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  },
+  {
+   "name": "ImageInsert",
+   "url": "https://github.com/Sokuza/ImageInsert",
+   "text": "Phantom-tank hidden-image generator: merge a cover image + a hidden image into one PNG",
+   "fork": false,
+   "stars": 1,
+   "language": "Python",
+   "topics": []
+  }
+ ],
+ "avatar": "c5af8a3be259"
+}
