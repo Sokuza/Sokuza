@@ -580,19 +580,28 @@ def pic(name, alt, width="100%"):
 
 
 def readme(pins):
-    cards = [f'<a href="{pin["url"]}">{pic("project-" + slug(pin["name"]), pin["name"], "49%")}</a>' for pin in pins]
-    rows = ["&nbsp;".join(cards[i:i + 2]) for i in range(0, len(cards), 2)]
-    buttons = "&nbsp;&nbsp;".join(f'<a href="{url}">{pic("button-" + key, label, "auto")}</a>' for key, label, _, _, url in BUTTONS)
-    blocks = [
-        pic("hero", f"Hi, I'm {NAME}"),
-        pic("about", "About me"),
-        pic("stack", "Tech stack"),
-        *rows,
-        pic("stats", "GitHub activity"),
-        pic("wave", ""),
-        buttons,
-    ]
-    return '<div align="center">\n\n' + "\n\n".join(blocks) + "\n\n</div>\n"
+    socials = (
+        ("facebook", "Facebook", "https://www.facebook.com/profile.php?id=61584906517582"),
+        ("x", "X", "https://x.com/durinna91788"),
+        ("youtube", "YouTube", "https://www.youtube.com/@Durinna"),
+        ("instagram", "Instagram", "https://www.instagram.com/kellroplur/"),
+    )
+    links = "<br>\n".join(
+        f'<a href="{url}">{pic("terminal/" + key, label)}</a>'
+        for key, label, url in socials
+    )
+    card = pic(
+        "terminal/profile",
+        "Sokuza builds tools for math, 3D, and the Windows desktop. "
+        "Pixel-art logos for GitHub, Python, JavaScript, and C#.",
+    )
+    projects = [f'- [{pin["name"]}]({pin["url"]})' for pin in pins]
+    projects.append(f"- [All repositories](https://github.com/{USER}?tab=repositories)")
+    return "\n".join([
+        '<div align="left">', card + "<br>", links, "</div>", "",
+        "<details>", "<summary>Selected projects</summary>", "",
+        *projects, "", "</details>", "",
+    ])
 
 
 # Main
